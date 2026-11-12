@@ -1,0 +1,4 @@
+#Thu Nov 12 14:46:48 IST 2026
+base.0=D\:\\Projects\\BluePop\\BluePop\\app\\build\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

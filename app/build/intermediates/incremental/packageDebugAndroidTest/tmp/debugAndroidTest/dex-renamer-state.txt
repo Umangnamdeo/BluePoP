@@ -1,0 +1,4 @@
+#Thu Nov 12 14:30:04 IST 2026
+base.0=D\:\\Projects\\BluePop\\BluePop\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+path.0=0/classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "app.bluepop.app-debug-40:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "app.bluepop.app-main-42:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "app.bluepop.app-debug-40:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "app.bluepop.app-main-42:/drawable/ic_launcher_foreground.xml"
+    }
+]

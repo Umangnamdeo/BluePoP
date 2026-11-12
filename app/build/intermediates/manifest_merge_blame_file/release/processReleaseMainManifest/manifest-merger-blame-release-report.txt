@@ -1,0 +1,192 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="app.bluepop"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-feature
+11-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:4:5-87
+12        android:name="android.hardware.bluetooth"
+12-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:4:19-60
+13        android:required="true" />
+13-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:4:61-84
+14
+15    <uses-permission
+15-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:6:5-95
+16        android:name="android.permission.BLUETOOTH"
+16-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:6:22-65
+17        android:maxSdkVersion="30" />
+17-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:6:66-92
+18    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+18-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:7:5-76
+18-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:7:22-73
+19    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+19-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:8:5-77
+19-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:8:22-74
+20    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+20-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:9:5-78
+20-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:9:22-75
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+21-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:10:5-77
+21-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:10:22-74
+22    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE" />
+22-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:11:5-94
+22-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:11:22-91
+23    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+23-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:12:5-81
+23-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:12:22-78
+24    <uses-permission android:name="android.permission.VIBRATE" />
+24-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:13:5-66
+24-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:13:22-63
+25    <!-- Only used for the update check: one small HTTPS request for a version file. -->
+26    <uses-permission android:name="android.permission.INTERNET" />
+26-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:15:5-67
+26-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:15:22-64
+27
+28    <permission
+28-->[androidx.core:core:1.13.1] C:\Users\ankit computer care\.gradle\caches\transforms-4\e0e9d4e6014ab49aed344dc718e7c01e\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+29        android:name="app.bluepop.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+29-->[androidx.core:core:1.13.1] C:\Users\ankit computer care\.gradle\caches\transforms-4\e0e9d4e6014ab49aed344dc718e7c01e\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+30        android:protectionLevel="signature" />
+30-->[androidx.core:core:1.13.1] C:\Users\ankit computer care\.gradle\caches\transforms-4\e0e9d4e6014ab49aed344dc718e7c01e\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+31
+32    <uses-permission android:name="app.bluepop.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+32-->[androidx.core:core:1.13.1] C:\Users\ankit computer care\.gradle\caches\transforms-4\e0e9d4e6014ab49aed344dc718e7c01e\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+32-->[androidx.core:core:1.13.1] C:\Users\ankit computer care\.gradle\caches\transforms-4\e0e9d4e6014ab49aed344dc718e7c01e\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+33
+34    <application
+34-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:17:5-47:19
+35        android:allowBackup="false"
+35-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:18:9-36
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.13.1] C:\Users\ankit computer care\.gradle\caches\transforms-4\e0e9d4e6014ab49aed344dc718e7c01e\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+37        android:extractNativeLibs="false"
+38        android:icon="@mipmap/ic_launcher"
+38-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:19:9-43
+39        android:label="@string/app_name"
+39-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:21:9-41
+40        android:roundIcon="@mipmap/ic_launcher"
+40-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:20:9-48
+41        android:supportsRtl="true"
+41-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:22:9-35
+42        android:theme="@style/Theme.BluePop" >
+42-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:23:9-45
+43        <activity
+43-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:25:9-33:20
+44            android:name="app.bluepop.MainActivity"
+44-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:26:13-41
+45            android:exported="true"
+45-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:27:13-36
+46            android:windowSoftInputMode="adjustResize" >
+46-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:28:13-55
+47            <intent-filter>
+47-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:29:13-32:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:30:17-69
+48-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:30:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:31:17-77
+50-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:31:27-74
+51            </intent-filter>
+52        </activity>
+53
+54        <!-- Needed so connection events keep arriving while the app is closed. -->
+55        <service
+55-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:36:9-39:63
+56            android:name="app.bluepop.BluePopService"
+56-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:37:13-43
+57            android:exported="false"
+57-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:38:13-37
+58            android:foregroundServiceType="connectedDevice" />
+58-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:39:13-60
+59
+60        <receiver
+60-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:41:9-46:20
+61            android:name="app.bluepop.BootReceiver"
+61-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:41:19-47
+62            android:exported="false" >
+62-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:41:48-72
+63            <intent-filter>
+63-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:42:13-45:29
+64                <action android:name="android.intent.action.BOOT_COMPLETED" />
+64-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:43:17-79
+64-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:43:25-76
+65                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+65-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:44:17-84
+65-->D:\Projects\BluePop\BluePop\app\src\main\AndroidManifest.xml:44:25-81
+66            </intent-filter>
+67        </receiver>
+68
+69        <provider
+69-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ankit computer care\.gradle\caches\transforms-4\250adba018def077ffb38edbe1a6faae\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+70            android:name="androidx.startup.InitializationProvider"
+70-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ankit computer care\.gradle\caches\transforms-4\250adba018def077ffb38edbe1a6faae\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+71            android:authorities="app.bluepop.androidx-startup"
+71-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ankit computer care\.gradle\caches\transforms-4\250adba018def077ffb38edbe1a6faae\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+72            android:exported="false" >
+72-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ankit computer care\.gradle\caches\transforms-4\250adba018def077ffb38edbe1a6faae\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+73            <meta-data
+73-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ankit computer care\.gradle\caches\transforms-4\250adba018def077ffb38edbe1a6faae\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+74                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+74-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ankit computer care\.gradle\caches\transforms-4\250adba018def077ffb38edbe1a6faae\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+75                android:value="androidx.startup" />
+75-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ankit computer care\.gradle\caches\transforms-4\250adba018def077ffb38edbe1a6faae\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+76            <meta-data
+76-->[androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\ankit computer care\.gradle\caches\transforms-4\777ab482cd79722c97db215ca242ae10\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:29:13-31:52
+77                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+77-->[androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\ankit computer care\.gradle\caches\transforms-4\777ab482cd79722c97db215ca242ae10\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:30:17-78
+78                android:value="androidx.startup" />
+78-->[androidx.lifecycle:lifecycle-process:2.8.2] C:\Users\ankit computer care\.gradle\caches\transforms-4\777ab482cd79722c97db215ca242ae10\transformed\lifecycle-process-2.8.2\AndroidManifest.xml:31:17-49
+79            <meta-data
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ankit computer care\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+80                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ankit computer care\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+81                android:value="androidx.startup" />
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ankit computer care\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+82        </provider>
+83
+84        <receiver
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ankit computer care\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+85            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ankit computer care\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+86            android:directBootAware="false"
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ankit computer care\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+87            android:enabled="true"
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ankit computer care\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+88            android:exported="true"
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ankit computer care\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+89            android:permission="android.permission.DUMP" >
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ankit computer care\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+90            <intent-filter>
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ankit computer care\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+91                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ankit computer care\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ankit computer care\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+92            </intent-filter>
+93            <intent-filter>
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ankit computer care\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+94                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ankit computer care\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ankit computer care\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+95            </intent-filter>
+96            <intent-filter>
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ankit computer care\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+97                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ankit computer care\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ankit computer care\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+98            </intent-filter>
+99            <intent-filter>
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ankit computer care\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+100                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ankit computer care\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ankit computer care\.gradle\caches\transforms-4\15863336bf114ba2b558bc1af2b5e58e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+101            </intent-filter>
+102        </receiver>
+103    </application>
+104
+105</manifest>

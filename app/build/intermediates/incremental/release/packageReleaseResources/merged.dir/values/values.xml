@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#0A0A0C</color>
+    <string name="app_name">BluePop</string>
+    <style name="Theme.BluePop" parent="android:Theme.DeviceDefault.NoActionBar">
+        <item name="android:windowBackground">#0A0A0C</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>

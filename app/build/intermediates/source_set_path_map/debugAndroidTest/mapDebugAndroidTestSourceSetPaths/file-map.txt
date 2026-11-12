@@ -1,0 +1,4 @@
+app.bluepop.test.app-androidTest-0 D:\Projects\BluePop\BluePop\app\build\generated\res\resValues\androidTest\debug
+app.bluepop.test.app-mergeDebugAndroidTestResources-1 D:\Projects\BluePop\BluePop\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+app.bluepop.test.app-mergeDebugAndroidTestResources-2 D:\Projects\BluePop\BluePop\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+app.bluepop.test.app-debugAndroidTest-3 D:\Projects\BluePop\BluePop\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
