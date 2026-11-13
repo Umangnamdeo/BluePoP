@@ -7,9 +7,8 @@ Built with Kotlin and Jetpack Compose.
 ## Screenshots
 
 <!-- Add screenshots to a /screenshots folder, then link them here -->
-| Popup | Customization | Device info |
-|---|---|---|
-| <img width="320" height="640" alt="BluePop Poster@1x" src="https://github.com/user-attachments/assets/c325f06f-6976-418b-ac99-5c0a2344ef30" />
+
+ <img width="600" height="1200" alt="BluePop Poster@1x" src="https://github.com/user-attachments/assets/c325f06f-6976-418b-ac99-5c0a2344ef30" />
 
 ## Features
 
